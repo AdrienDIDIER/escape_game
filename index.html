@@ -449,7 +449,7 @@ const PUZZLES = [
     text:[
       "🔤 Anagramme :",
       "",
-      "  'E N I G M E'",
+      "  'I E E N G M'",
       "",
       "Réarrange pour former un mot."
     ].join("\n"),
@@ -463,12 +463,12 @@ const PUZZLES = [
     type:"énigme",
     difficulty:"++",
     text:[
-      "🧩 Je grandis quand on m’enlève.",
-      "Je suis quoi ?"
+      "🧩 Plus j'ai de gardien, moins bien je suis gardé.",
+      "Qui suis-je ?"
     ].join("\n"),
-    answer:(a)=>{ const x=norm(a); return x==="trou"||x==="un trou"; },
-    hint:["Pense à quelque chose qu’on creuse.","Plus on enlève, plus ça grandit."],
-    reward:{ item:"Concept: TROU", key:"R0" }
+    answer:(a)=>{ const x=norm(a); return x==="secret"||x==="un secret"; },
+    hint:["Pense à quelque chose qu’on dis.","🤫🤐."],
+    reward:{ item:"Concept: SECRET", key:"R0" }
   },
   {
     id:"final",
